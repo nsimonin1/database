@@ -1,3 +1,5 @@
+SET FOREIGN_KEY_CHECKS=0; 
+SHOW FULL TABLES FROM `taxi_dev` WHERE table_type = 'BASE TABLE';
 DROP TABLE `taxi_dev`.`databasechangelog`; 
 DROP TABLE `taxi_dev`.`databasechangeloglock`; 
 DROP TABLE `taxi_dev`.`jhi_authority`; 
@@ -19,4 +21,9 @@ DROP TABLE `taxi_dev`.`t_photo_profile`;
 DROP TABLE `taxi_dev`.`t_score`; 
 DROP TABLE `taxi_dev`.`t_taxi_driver`; 
 DROP TABLE `taxi_dev`.`t_vehicule`; 
+SELECT `TABLE_NAME` FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_SCHEMA` = 'taxi_dev' AND `TABLE_TYPE` = 'VIEW'; 
+SELECT `SPECIFIC_NAME` FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'taxi_dev' AND ROUTINE_TYPE = 'PROCEDURE'; 
+SELECT `SPECIFIC_NAME` FROM `INFORMATION_SCHEMA`.`ROUTINES` WHERE `ROUTINE_SCHEMA` = 'taxi_dev'AND ROUTINE_TYPE = 'FUNCTION'; 
+SELECT `EVENT_NAME` FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` = 'taxi_dev' ORDER BY EVENT_NAME; 
+SET FOREIGN_KEY_CHECKS=1; 
 
