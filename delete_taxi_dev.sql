@@ -12,7 +12,6 @@ DROP TABLE `taxi_dev`.`t_capture`;
 DROP TABLE `taxi_dev`.`t_city`; 
 DROP TABLE `taxi_dev`.`t_comment`; 
 DROP TABLE `taxi_dev`.`t_conduire`; 
-DROP TABLE `taxi_dev`.`t_like_driver`; 
 DROP TABLE `taxi_dev`.`t_organisation`; 
 DROP TABLE `taxi_dev`.`t_passager`; 
 DROP TABLE `taxi_dev`.`t_passager_coordonnees`; 
