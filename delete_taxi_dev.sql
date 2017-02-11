@@ -1,7 +1,7 @@
 SET FOREIGN_KEY_CHECKS=0; 
 SHOW FULL TABLES FROM `taxi_dev` WHERE table_type = 'BASE TABLE';
-DROP TABLE `taxi_dev`.`databasechangelog`; 
-DROP TABLE `taxi_dev`.`databasechangeloglock`; 
+DROP TABLE `taxi_dev`.`DATABASECHANGELOG`; 
+DROP TABLE `taxi_dev`.`DATABASECHANGELOGLOCK`; 
 DROP TABLE `taxi_dev`.`jhi_authority`; 
 DROP TABLE `taxi_dev`.`jhi_persistent_audit_event`; 
 DROP TABLE `taxi_dev`.`jhi_persistent_audit_evt_data`; 
