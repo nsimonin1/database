@@ -1,0 +1,22 @@
+DROP TABLE `taxi_dev`.`databasechangelog`; 
+DROP TABLE `taxi_dev`.`databasechangeloglock`; 
+DROP TABLE `taxi_dev`.`jhi_authority`; 
+DROP TABLE `taxi_dev`.`jhi_persistent_audit_event`; 
+DROP TABLE `taxi_dev`.`jhi_persistent_audit_evt_data`; 
+DROP TABLE `taxi_dev`.`jhi_user`; 
+DROP TABLE `taxi_dev`.`jhi_user_authority`; 
+DROP TABLE `taxi_dev`.`t_attachment`; 
+DROP TABLE `taxi_dev`.`t_capture`; 
+DROP TABLE `taxi_dev`.`t_city`; 
+DROP TABLE `taxi_dev`.`t_comment`; 
+DROP TABLE `taxi_dev`.`t_conduire`; 
+DROP TABLE `taxi_dev`.`t_like_driver`; 
+DROP TABLE `taxi_dev`.`t_organisation`; 
+DROP TABLE `taxi_dev`.`t_passager`; 
+DROP TABLE `taxi_dev`.`t_passager_coordonnees`; 
+DROP TABLE `taxi_dev`.`t_photo`; 
+DROP TABLE `taxi_dev`.`t_photo_profile`; 
+DROP TABLE `taxi_dev`.`t_score`; 
+DROP TABLE `taxi_dev`.`t_taxi_driver`; 
+DROP TABLE `taxi_dev`.`t_vehicule`; 
+
